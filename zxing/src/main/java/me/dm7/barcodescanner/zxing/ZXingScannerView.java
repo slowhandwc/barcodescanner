@@ -99,7 +99,7 @@ public class ZXingScannerView extends BarcodeScannerView {
         if(mResultHandler == null) {
             return;
         }
-        
+
         try {
             Camera.Parameters parameters = camera.getParameters();
             Camera.Size size = parameters.getPreviewSize();
@@ -159,7 +159,7 @@ public class ZXingScannerView extends BarcodeScannerView {
                         ResultHandler tmpResultHandler = mResultHandler;
                         mResultHandler = null;
 
-                        stopCameraPreview();
+//                        stopCameraPreview();
                         if (tmpResultHandler != null) {
                             tmpResultHandler.handleResult(finalRawResult);
                         }
