@@ -157,7 +157,7 @@ public class ZXingScannerView extends BarcodeScannerView {
                         // So we want to set result handler to null to discard subsequent calls to
                         // onPreviewFrame.
                         ResultHandler tmpResultHandler = mResultHandler;
-                        mResultHandler = null;
+//                        mResultHandler = null;
 
 //                        stopCameraPreview();
                         if (tmpResultHandler != null) {
