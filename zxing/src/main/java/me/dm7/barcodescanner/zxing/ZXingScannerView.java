@@ -176,7 +176,7 @@ public class ZXingScannerView extends BarcodeScannerView {
 
     public void resumeCameraPreview(ResultHandler resultHandler) {
         mResultHandler = resultHandler;
-//        super.resumeCameraPreview();
+        super.resumeCameraPreview();
     }
 
     public PlanarYUVLuminanceSource buildLuminanceSource(byte[] data, int width, int height) {
