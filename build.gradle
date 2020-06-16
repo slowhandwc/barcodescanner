@@ -14,8 +14,8 @@ buildscript {
 }
 
 allprojects {
-    group = 'me.dm7.barcodescanner'
-    version = '1.9.13'
+//    group = 'me.dm7.barcodescanner'
+//    version = '1.9.13'
 
     repositories {
         google()
